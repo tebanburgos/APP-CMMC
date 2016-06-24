@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'cmmc_root';
-$db['default']['password'] = 'RebrwSD^g7_S';
+$db['default']['password'] = 'CONFIDENCIAL';
 $db['default']['database'] = 'cmmc_sys';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
