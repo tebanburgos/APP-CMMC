@@ -1,0 +1,220 @@
+/*ESTRUCTURA*/
+
+body {
+    background-color: #FFFFFF !important;
+}
+
+#contenedor {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px !important;
+}
+
+#contenedor-general {
+    width: 1170px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.destacados {
+    font-size: 20px;
+}
+
+#imagen-principal {
+    padding: 0px !important;
+}
+
+
+/*HEADER*/
+
+#logo-ipto {
+    float:right;
+}
+
+#logo-cmmc {
+    float:left;
+}
+
+.navbar {
+    height: 100px !important;
+}
+
+.navbar .container {
+    padding: 0px !important;
+}
+
+/*FOOTER*/
+
+#footer {
+    background: #041D4A;
+    padding: 20px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+#footer .copyright {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright a.pull-right {
+    color:#B9B9B9;
+}
+
+.copyright a.pull-right:hover {
+    color:#ffffff !important;
+    text-decoration: none !important;
+}
+
+/*BOTONES*/
+
+#reg {
+    float:left;
+}
+
+#imacom {
+    float:right;
+}
+
+.btn-primary {
+    color: #ffffff !important;
+    background-color: #a3bd31 !important;
+    border-color: #a3bd31 !important;
+}
+
+.btn-primary:hover {
+    color: #ffffff !important;
+    background-color: #B5D238 !important;
+    border-color: #B5D238 !important;
+}
+
+.btn-default:hover {
+    color: #FFF !important;
+    background-color: #A3BD31 !important;
+    border-color: #A3BD31 !important;
+}
+
+
+/*PAGINA-BIENVENIDO*/
+
+#contenedor-bienvenido {
+    padding: 0px;
+}
+
+.bg-primary {
+    color: #ffffff !important;
+    font-size: 20px !important;
+    background-color: #008ED4 !important;
+    padding: 10px 15px !important;
+    border-bottom: 1px solid #015782;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+form.form-horizontal {
+    border: 1px solid #DDD !important;
+    border-top: 1px solid transparent !important;
+    padding: 20px 50px 40px 10px !important;
+}
+
+
+/*PAGINAS-ETAPAS*/
+
+.panel-default > .panel-heading {
+    color: #ffffff !important;
+    font-size: 20px !important;
+    background-color: #008ED4 !important;
+    padding: 10px 15px !important;
+    border-bottom: 1px solid #015782 !important;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+    
+.panel-title {
+    font-size: 20px !important;
+    color: rgb(255, 255, 255) !important;
+    padding-left: 30px !important;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1169px) {
+  #contenedor {
+    width: 100% !important;
+}
+    
+#contenedor-general {
+    width: 100% !important;
+}
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+#logo-ipto {
+    float:left;
+    padding-left: 70px;
+}
+    
+#logo-ipto a img {
+    width: 100% !important;
+}
+
+#logo-cmmc {
+    float:left;
+    padding-bottom: 24px;
+    padding-left: 20px;
+}
+    
+#logo-cmmc a img {
+    width: 100% !important;
+    display:inline-block;
+}
+    
+.navbar {
+    height: 160px !important;
+}
+    
+/*ESTRUCTURA*/
+    
+#contenedor {
+    width: 100% !important;
+}
+    
+#contenedor-general {
+    width: 100% !important;
+}
+    
+/*FOOTER*/
+    
+#footer .copyright {
+    width: 100%;
+}
+
+#reg {
+    float:left;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+#imacom {
+    float:left;
+    padding-top: 16px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+/*BIENVENIDA*/
+
+#imagen-principal img {
+    width: 100% !important;
+}
+    
+
+}
